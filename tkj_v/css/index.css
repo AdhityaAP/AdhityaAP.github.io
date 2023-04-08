@@ -1,0 +1,378 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    background-color: wheat;
+}
+
+/* End CSS Reset */
+
+/* Root */
+
+:root {
+    --white: #eaeaea;
+    --black: #333;
+    --trans-white: rgba(255, 255, 255, 0.5);
+    --trans-black: rgba(0, 0, 0, 0.5);
+}
+
+/* End Root */
+
+/* Full Konten */
+/* Navigasi Bar */
+.Header {
+    background-color: blue;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.LogoHead {
+    background-color: maroon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 5px 50px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.LogoImg img {
+    width: 150px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.LogoName h1 {
+    font-size: 50px;
+    color: var(--white);
+    text-transform: capitalize;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.Logoname h1,
+span {
+    text-transform: uppercase;
+}
+
+.MenuHead {
+    background-color: crimson;
+    padding: 20px 0px;
+    width: 100%;
+    margin: auto;
+}
+
+.MenuHead ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.MenuHead ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.MenuHead ul li a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: 1s;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.MenuHead ul li a:hover {
+    color: var(--black);
+    background-color: var(--white);
+}
+
+/* End Navigasi */
+
+/* Konten 1 */
+.Konten1 {
+    background-image: url(../assets/tkj1.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    /* border-top: 5px solid red;
+    border-bottom: 5px solid red; */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.JarakKonten1 {
+    height: 50vh;
+    box-sizing: border-box;
+    padding-top: 42vh;
+    /* background-color: blue; */
+}
+
+.Isikonten1 {
+    color: var(--white);
+    position: relative;
+    /* width: 70%; */
+    margin: auto;
+    overflow: hidden;
+}
+
+.Isikonten1 h1 {
+    font-size: 100px;
+    background-color: var(--trans-black);
+    cursor: pointer;
+    transition: 3s;
+}
+
+.Isikonten1 h1:hover {
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* .Isikonten1 h2 {
+    font-size: 50px;
+    text-transform: capitalize;
+    color: var(--black);
+    background-color: var(--trans-white);
+} */
+
+/* End Konten 1 */
+
+/* Konten 2 */
+.Konten2 {
+    /* height: 50vh; */
+    padding: 20px 5px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.BoxKonten2 {
+    /* background-color: var(--trans-black); */
+    width: 100%;
+    /* height: 80%; */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+/* .BoxKonten2::-webkit-scrollbar {
+    display: none;
+} */
+
+.ShapeKonten2 {
+    display: flex;
+}
+
+.BorderKonten2 {
+    background-color: var(--white);
+    width: 250px;
+    height: 250px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px 10px 10px 10px;
+    transition: 0.5s;
+}
+
+.BorderKonten2:hover {
+    background-color: #DFDFDE;
+}
+
+.BorderKonten2 img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.BorderKonten2 h3 {
+    color: var(--black);
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.BorderKonten2 p {
+    color: var(--black);
+    margin-top: 10px;
+}
+
+/* End Konten 2 */
+
+/* Konten 3 */
+.Konten3 {
+    background-image: url(../assets/banner.jpeg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    color: var(--black);
+    overflow: hidden;
+}
+
+.kosongkonten3 {
+    height: 25px;
+}
+
+.Konten3 h1 {
+    text-align: center;
+    color: var(--white);
+    text-decoration: underline;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.LimitKonten3 {
+    height: 80vh;
+    width: 100%;
+    /* background-color: blue; */
+    margin: 25px auto;
+    overflow-y: scroll;
+}
+
+.LimitKonten3::-webkit-scrollbar {
+    display: none;
+}
+
+.BoxKonten3 {
+    background-color: var(--trans-white);
+    width: 1000px;
+    max-width: 95%;
+    height: 40vh;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 0px auto 20px;
+    transition: 0.5s;
+}
+
+.BoxKonten3:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.BoxKonten3 table {
+    /* margin: auto; */
+    /* padding: 10px; */
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+
+.BoxKonten3 table tr td img {
+    width: 200px;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    /* margin-right: 20px; */
+}
+
+.BoxKonten3 table tr td h1 {
+    text-align: left;
+    color: var(--black);
+    text-transform: capitalize;
+    text-decoration: none;
+    /* background-color: aqua; */
+    margin: 0;
+}
+
+.poto {
+    width: 25%;
+}
+
+/* End Konten 3 */
+
+/* Galeri */
+.UKGaleri {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--white);
+    color: var(--black);
+    text-align: center;
+}
+
+.kosonggaleri {
+    height: 25px;
+}
+
+.UKGaleri h1 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.BoxGaleri {
+    background-color: var(--black);
+    width: 80%;
+    height: 85vh;
+    margin: 20px auto 0px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.BoxGaleri::-webkit-scrollbar {
+    display: none;
+}
+
+.BoxGaleri table {
+    margin: auto;
+    width: 100%;
+}
+
+.BoxGaleri td {
+    width: 25%;
+    border: 1px solid var(--white);
+}
+
+.BoxGaleri img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.BoxGaleri video {
+    width: 100%;
+    cursor: pointer;
+}
+
+/* End Galeri */
+
+/* Footer */
+.Footer {
+    background-color: var(--black);
+    text-align: center;
+    color: var(--white);
+    padding: 20px 50px;
+}
+
+.Footer h1 {
+    cursor: pointer;
+}
+
+.Footer p {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.Footer img {
+    margin: 10px 10px 0px 10px;
+    cursor: pointer;
+}
+
+.Footer h3 {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* End Footer */

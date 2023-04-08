@@ -1,0 +1,168 @@
+/* Keseluruhan */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: wheat;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Header */
+
+.Header {
+    background-image: url(../assets/footer_lodyas.png);
+    background-size: cover;
+    width: 100%;
+    padding: 15px;
+    border-bottom: 2px solid #eaeaea;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+}
+
+.LogoIcon {
+    height: 8vh;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.LogoIcon img {
+    height: 8vh;
+    cursor: pointer;
+}
+
+.LogoName {
+    margin-left: 20px;
+}
+
+.LogoName h1 a{
+    text-transform: capitalize;
+    color: #eaeaea;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.LogoName h1 a:hover {
+    color: gray;
+}
+
+/* Isi Konten */
+/* Latar Belakang */
+
+.Fkonten {
+    width: 100%;
+}
+
+.Konten {
+    background-image: url(../assets/439712.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.Bab1 {
+    background-color: #eaeaea;
+    width: 700px;
+    max-width: 90%;
+    margin: 0px auto 20px auto;
+    padding: 10px 50px 40px 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.Bab2 {
+    background-color: #eaeaea;
+    width: 700px;
+    max-width: 90%;
+    margin: 0px auto 20px auto;
+    padding: 10px 50px 40px 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.Bab3 {
+    background-color: #eaeaea;
+    width: 700px;
+    max-width: 90%;
+    margin: 0px auto 0px auto;
+    padding: 10px 50px 40px 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+/* Isi Konten */
+/* Materi */
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+h2, h3, h4{
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+span {
+    text-transform: uppercase;
+}
+
+p {
+    text-align: justify;
+    text-indent: 29px;
+    margin-top: 10px;
+}
+
+.ShapeKonten {
+    margin: 20px 0px;
+    width: 100%;
+}
+
+.BoxKonten {
+    width: 500px;
+    max-width: 80%;
+    margin: 0px auto 5px auto;
+    max-height: 80vh;
+    overflow: auto;
+}
+
+.BoxKonten img {
+    width: 100%;
+}
+
+.BoxKonten video {
+    width: 100%;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: -5px;
+    color: gray;
+}
+
+/* Footer */
+
+.Footer {
+    background-image: url(../assets/footer_lodyas.png);
+    background-size: cover;
+    background-position: 0, bottom;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-top: 2px solid #eaeaea;
+    color: #eaeaea;
+}
