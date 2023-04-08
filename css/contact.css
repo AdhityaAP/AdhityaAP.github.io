@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.NavBar {
+    /* background-color: black; */
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.Logo img {
+    width: 75px;
+    border-radius: 0 50%;
+    margin-right: 20px;
+    box-shadow: 4px 4px 5px purple, -4px -4px 5px blue;
+    cursor: pointer;
+}
+
+.Logo h1 {
+    font-size: 40px;
+    font-weight: 800;
+    text-shadow: 2px 2px 3px purple, -2px -2px 3px blue;
+    color: #333;
+    cursor: pointer;
+}
+
+.MenuBar ul {
+    list-style-type: none;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.MenuBar ul li {
+    margin: 0px 10px;
+}
+
+.MenuBar ul li a {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline;
+    padding: 10px;
+    transition: .5s;
+    cursor: pointer;
+    text-shadow: 1px 1px 3px blueviolet, -1px -1px 3px red;
+}
+
+.MenuBar ul li a:hover {
+    color: whitesmoke;
+    background-color: blue;
+    border-radius: 5px;
+}

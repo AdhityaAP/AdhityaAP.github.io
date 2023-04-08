@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.FullKonten {
+    background-color: black;
+}
+
+.NavBar {
+    /* background-color: black; */
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.Logo img {
+    width: 75px;
+    border-radius: 0 50%;
+    margin-right: 20px;
+    box-shadow: 4px 4px 5px purple, -4px -4px 5px blue;
+    cursor: pointer;
+}
+
+.Logo h1 {
+    font-size: 40px;
+    font-weight: 800;
+    text-shadow: 2px 2px 3px purple, -2px -2px 3px blue;
+    color: #333;
+    cursor: pointer;
+}
+
+.MenuBar ul {
+    list-style-type: none;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.MenuBar ul li {
+    margin: 0px 10px;
+}
+
+.MenuBar ul li a {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline;
+    padding: 10px;
+    transition: .5s;
+    cursor: pointer;
+    text-shadow: 1px 1px 3px blueviolet, -1px -1px 3px red;
+}
+
+.MenuBar ul li a:hover {
+    color: whitesmoke;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.Konten1 {
+    background-image: url(../assets/bg_neon.jpg);
+    background-size: cover;
+    height: 800px;
+}
+
+.ShapeKonten1 {
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 1400px;
+    /* max-width: 90%; */
+    /* height: 80vh; */
+    margin: 75px auto 0;
+    border-radius: 20px;
+    transition: .5s;
+    box-sizing: border-box;
+    padding: 10px 45px 25px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.ShapeKonten1:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ShapeKonten1 img {
+    height: 250px;
+    border-radius: 0 50% 50%;
+    margin: 0px 25px;
+    border: 3px solid #eaeaea;
+}
+
+.Bio {
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Bio h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.Bio h2 {
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+.Bio p {
+    margin-top: 10px;
+}
+
+.Bio ul {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.Bio hr {
+    margin: 25px 0px;
+}
+
+.Bio h3 {
+    float: right;
+}
+
+.Bio h3 a {
+    color: blue;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #eaeaea;
+    border-radius: 5px;
+}
+
+.Project {
+    background-color: whitesmoke;
+    /* height: 500px; */
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.Flex {
+    display: flex;
+}
+
+.BoxProject {
+    background-color: #eaeaea;
+    width: 500px;
+    /* height: 500px; */
+    margin: 0px 10px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px 20px;
+    transition: .5s;
+}
+
+.BoxProject:hover {
+    background-color: #DFDFDE;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.BoxProject img {
+    width: 250px;
+    border-radius: 50% 50% 0 0;
+}
+
+.BoxProject h2, h1, h3 {
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.BoxProject p {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.Konten2 {
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+.IsiKonten2 h1 {
+    text-align: center;
+    /* background-color: blue; */
+    margin: 0px 0px 20px 0px;
+    padding-top: 40px
+}
+
+.IsiKonten2 h1 a {
+    color: #333;
+    text-transform: uppercase;
+    background-color: red;
+    padding: 10px;
+}
+
+.Konten3 {
+    background-color: #333;
+    width: 100%;
+    height: 500px;
+}
